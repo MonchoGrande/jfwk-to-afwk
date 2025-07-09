@@ -2,7 +2,7 @@
   "name": "jfwk-to-afwk",
   "displayName": "Jfwk-to-Afwk",
   "description": "Transforma campos Java con JPA en propiedades TypeScript con decoradores para fwk Setting.",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "publisher": "Moncho",
   "icon": "icono-circulo.png",
   "engines": {

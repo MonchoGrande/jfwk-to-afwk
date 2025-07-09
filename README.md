@@ -14,16 +14,6 @@ Convierte atributos de clases Java JPA en propiedades TypeScript con decoradores
 
 ---
 
-<!-- ## 🎯 Características principales
-
-✅ Soporta tipos comunes: `String`, `Integer`, `Double`, `LocalDate`, etc.
-✅ Reconoce relaciones JPA como `@ManyToOne`, `@ManyToMany`, `@JoinColumn`, `@JoinTable`.
-✅ Genera decoradores personalizados:
-`@Texto`, `@Numero`, `@Fecha`, `@ObjectId`, `@ArrayObjectId`, `@ArrayEntity`, etc.
-✅ Interpreta validaciones como `@NotNull`, `@Size`, `@Digits`. -->
-
-<!-- --- -->
-
 ## 🖼️ Vista rápida
 
 ![Demo del plugin](media/demofwk.gif)
