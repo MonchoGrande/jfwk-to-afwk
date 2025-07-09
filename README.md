@@ -1,4 +1,4 @@
-# 🧩 java-to-angular-setting-class
+# 🧩 jfwk-to-afwk
 
 Convierte atributos de clases Java JPA en propiedades TypeScript con decoradores personalizados, adaptados al framework **Setting**.
 
