@@ -164,7 +164,7 @@ function convertirJavaAAngular(javaCode: string): string {
 		// 	decorador = construirDecorador('@JsonObject', [...decorators, ...jsonOpts]);
 		// }
 		else if (tipoJava === 'String') {
-			tipoTS = 'string | null';
+			tipoTS = 'string';
 			decorador = `@StringCtrl()`;
 		} else if (['LocalDate', 'LocalDateTime'].includes(tipoJava)) {
 			tipoTS = 'Date';
@@ -176,7 +176,7 @@ function convertirJavaAAngular(javaCode: string): string {
 			tipoTS = `${tipoJava}`;
 			decorador = `@OneObjectCtrl()`;
 		}
-		resultadoLineas.push(`${decorador}\n${nombreCampo}: ${tipoTS} = null;\n\n`);
+		resultadoLineas.push(`${decorador}\n${nombreCampo}: ${tipoTS};\n\n`);
 
 		// Reiniciar estado para el siguiente campo
 		decorators = [];
