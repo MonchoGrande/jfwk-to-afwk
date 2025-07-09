@@ -2,7 +2,7 @@
   "name": "jfwk-to-afwk",
   "displayName": "Jfwk-to-Afwk",
   "description": "Transforma campos Java con JPA en propiedades TypeScript con decoradores para fwk Setting.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "Moncho",
   "engines": {
     "vscode": "^1.101.0"
@@ -21,7 +21,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "Jfwk-to-Afwk",
+        "command": "Jfwk-to-Afwk.convert",
         "title": "Java to Angular"
       }
     ],
