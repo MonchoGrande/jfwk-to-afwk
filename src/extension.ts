@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
-	let disposable = vscode.commands.registerCommand('jata-to-angular-setting-class.convert', async () => {
+	let disposable = vscode.commands.registerCommand('Jfwk-to-Afwk.convert', async () => {
 		const editor = vscode.window.activeTextEditor;
 		if (!editor) {
 			vscode.window.showErrorMessage('No hay editor activo');
