@@ -23,7 +23,7 @@ Convierte atributos de clases Java JPA en propiedades TypeScript con decoradores
 ✅ Interpreta validaciones como `@NotNull`, `@Size`, `@Digits`. -->
 
 <!-- --- -->
-<!--
+
 ## 🖼️ Vista rápida
 
-![Demo del plugin](media/demo.gif) -->
+![Demo del plugin](media/demofwk.gif)
